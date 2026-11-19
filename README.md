@@ -1,6 +1,6 @@
 # open-genomics/.github
 
-Open Genomics 组织的**组织级配置仓库**。这里的文件对该组织下所有仓库生效，
+Holtwood Genomics 组织的**组织级配置仓库**。这里的文件对该组织下所有仓库生效，
 除非目标仓库自带同名文件。
 
 > ⚠️ **本仓库必须保持 Public。** GitHub 只在 `.github` 仓库公开时，才会把其中的

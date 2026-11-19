@@ -1,6 +1,6 @@
 # 贡献指南（组织默认）
 
-本文件是 Open Genomics 组织的**默认贡献指南**。若目标仓库自带 `CONTRIBUTING.md`，
+本文件是 Holtwood Genomics 组织的**默认贡献指南**。若目标仓库自带 `CONTRIBUTING.md`，
 以仓库内的为准；仓库内没有的，按本文件执行。
 
 ## 开始之前

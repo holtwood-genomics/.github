@@ -1,6 +1,6 @@
 # 安全策略（组织默认）
 
-本文件是 Open Genomics 组织的**默认安全策略**。若目标仓库自带 `SECURITY.md`，
+本文件是 Holtwood Genomics 组织的**默认安全策略**。若目标仓库自带 `SECURITY.md`，
 以仓库内的为准。
 
 ## 报告漏洞

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Open Genomics
+# Holtwood Genomics
 
 **高性能生物信息学系统软件与中文知识库**
 
