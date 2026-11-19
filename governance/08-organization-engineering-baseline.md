@@ -1,8 +1,8 @@
-# open-genomics 组织级工程基线
+# holtwood-genomics 组织级工程基线
 
 ## 1. 设计取向
 
-open-genomics 当前是 6 个独立仓库的集合，不是 monorepo。组织治理应当提供共同的“交付底线”，而不是建立一套所有语言都必须调用的中央脚本。
+holtwood-genomics 当前是 6 个独立仓库的集合，不是 monorepo。组织治理应当提供共同的“交付底线”，而不是建立一套所有语言都必须调用的中央脚本。
 
 推荐模型：
 
@@ -140,11 +140,11 @@ open-genomics 当前是 6 个独立仓库的集合，不是 monorepo。组织治
 - `fq-compressor`：README、CMake、Conan metadata；
 - `micos-2024`：README、CONTRIBUTING、CITATION、pyproject、AGENTS 和 docs；
 - `compress-kit` 当前活动项目 URL 已迁移；其中 AICL-Lab copyright 是权利归属问题，不因 GitHub 组织名不同自动改写；
-- 两个 Rust 仓库当前 canonical repository metadata 已是 `open-genomics`。
+- 两个 Rust 仓库当前 canonical repository metadata 已是 `holtwood-genomics`。
 
 实施要求：
 
-1. canonical clone/homepage/issues/docs/CI/release 链接统一为 `open-genomics`；
+1. canonical clone/homepage/issues/docs/CI/release 链接统一为 `holtwood-genomics`；
 2. 文档站 base 与部署 URL 逐仓验证，不只字符串替换；
 3. CITATION 的 repository URL 更新，但作者、年份、DOI 等学术元数据不能未经确认改写；
 4. 个人作者署名和组织项目归属分开，不能把迁移误当版权转让；

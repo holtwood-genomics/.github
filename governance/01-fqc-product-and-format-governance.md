@@ -170,7 +170,7 @@
 | Command | `fqc` | `fqc` |
 | Extension | `.fqc` | `.fqc` |
 | Magic | `46 51 43 56 32 0D 0A 1A` | `89 46 51 43 0D 0A 1A 0A` |
-| Normative owner | `open-genomics/fq-compressor` | `open-genomics/fq-compressor-rust` |
+| Normative owner | `holtwood-genomics/fq-compressor` | `holtwood-genomics/fq-compressor-rust` |
 | Golden fixture | 仓库内固定路径 | 仓库内固定路径 |
 | Breaking policy | 新 major/magic + ADR | 新 major/magic + ADR |
 

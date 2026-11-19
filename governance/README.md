@@ -58,7 +58,7 @@
 - **[09-decision-register-and-task-index.md](09-decision-register-and-task-index.md)** ——
   任务状态索引过时；其中的决策记录部分仍有效。
 - **[08-organization-engineering-baseline.md](08-organization-engineering-baseline.md)** ——
-  组织级基线的部分内容已由组织级 [`.github` 仓库](https://github.com/open-genomics/.github)
+  组织级基线的部分内容已由组织级 [`.github` 仓库](https://github.com/holtwood-genomics/.github)
   实际落地（社区健康文件、Issue/PR 模板、CI 起步模板）。
 
 ## 本审计包未覆盖的仓库

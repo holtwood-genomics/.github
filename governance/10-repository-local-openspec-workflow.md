@@ -32,7 +32,7 @@ explore → propose → specs → design → tasks → apply → verify → arch
 
 ## 2. 多仓库边界
 
-`/home/shane/github/open-genomics` 是六个 Git 仓库的父目录，不是 monorepo。规则如下：
+`/home/shane/github/holtwood-genomics` 是六个 Git 仓库的父目录，不是 monorepo。规则如下：
 
 1. `openspec/` 只创建在目标子仓库；
 2. 一个 change 只修改一个 Git 仓库；

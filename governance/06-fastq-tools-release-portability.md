@@ -1,6 +1,6 @@
 # fastq-tools 发布可移植性设计
 
-目标仓库：`/home/shane/github/open-genomics/fastq-tools`  
+目标仓库：`/home/shane/github/holtwood-genomics/fastq-tools`  
 审计提交：`5bab799bb9be`
 
 ## 1. 总体判断
@@ -186,7 +186,7 @@ rg -n '4\.3\.4|2\.27\.1|4\.0\.2|2\.24\.0|LLVM_VERSION' \
 
 实施要求：
 
-1. 将活动链接从 `LessUp/fastq-tools` 改为 `open-genomics/fastq-tools`；
+1. 将活动链接从 `LessUp/fastq-tools` 改为 `holtwood-genomics/fastq-tools`；
 2. 作者个人 GitHub 链接与组织归属分开：保留真实作者署名可以，但项目主页、clone、issues、CI、release badge 必须指向当前仓库；
 3. 在真正存在 release workflow/tag/asset 前，release badge 不得暗示已有受维护发布；可暂时移除，待 `FQT-REL-001` 完成再恢复；
 4. 选定单一版本事实源。推荐保留 CMake `project(VERSION ...)`，release 验证脚本解析它；如果引入 `VERSION` 文件，则 CMake 必须读取它，不能两处手改；

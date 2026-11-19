@@ -1,6 +1,6 @@
 # MICOS-2024 可复现性与编排治理设计
 
-目标仓库：`/home/shane/github/open-genomics/micos-2024`  
+目标仓库：`/home/shane/github/holtwood-genomics/micos-2024`  
 审计提交：`c2c399f89c9c`
 
 ## 1. 当前事实

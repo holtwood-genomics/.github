@@ -8,7 +8,7 @@
 请通过 GitHub 的**私有漏洞上报**功能报告安全问题，不要公开披露未修复的漏洞：
 
 ```
-https://github.com/open-genomics/<仓库名>/security/advisories/new
+https://github.com/holtwood-genomics/<仓库名>/security/advisories/new
 ```
 
 报告中请包含：受影响版本或提交、复现方式、影响评估，以及（若有）建议的修复方向。

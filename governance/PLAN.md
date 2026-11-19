@@ -1,4 +1,4 @@
-# PLAN: open-genomics 设计文档价值评估与执行计划
+# PLAN: holtwood-genomics 设计文档价值评估与执行计划
 
 > ## ⚠️ 本文件整份已过时（2026-09-10 核对）
 >
@@ -116,7 +116,7 @@
 
 **步骤 1.2** 执行 Task 4 最终验证
 ```bash
-cd /home/shane/github/open-genomics/minibwa-rust
+cd /home/shane/github/holtwood-genomics/minibwa-rust
 cargo fmt --all -- --check
 cargo clippy --all-targets --all-features -- -D warnings
 cargo test --all-targets --all-features
@@ -193,9 +193,9 @@ cargo test --all-targets --all-features
 
 ---
 
-> **角色：** 你是 open-genomics 组织的工程执行 agent。你的任务是根据本计划逐项完成收尾和归档工作。
+> **角色：** 你是 holtwood-genomics 组织的工程执行 agent。你的任务是根据本计划逐项完成收尾和归档工作。
 >
-> **工作区根目录：** `/home/shane/github/open-genomics`
+> **工作区根目录：** `/home/shane/github/holtwood-genomics`
 >
 > **重要规则：**
 > - 每个仓库独立操作，不要跨仓库修改
@@ -207,7 +207,7 @@ cargo test --all-targets --all-features
 >
 > ### 第一步：收尾 minibwa-rust（最高优先级）
 >
-> 1. 进入 `/home/shane/github/open-genomics/minibwa-rust`
+> 1. 进入 `/home/shane/github/holtwood-genomics/minibwa-rust`
 > 2. 查看 `git status` 和 `git diff` 确认当前改动
 > 3. 阅读 `docs/superpowers/plans/2026-08-18-final-wrapup.md` 了解上下文
 > 4. 检查 `src/index.rs` 的改动：如果只是函数签名从多行变成单行（cargo fmt 风格），保留；如果是其他改动，报告

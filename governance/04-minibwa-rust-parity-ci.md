@@ -1,6 +1,6 @@
 # minibwa-rust 参考实现一致性与 CI 设计
 
-目标仓库：`/home/shane/github/open-genomics/minibwa-rust`  
+目标仓库：`/home/shane/github/holtwood-genomics/minibwa-rust`  
 审计提交：`dad6e99b064a`
 
 ## 1. 核心结论

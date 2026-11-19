@@ -21,8 +21,8 @@
 
 | 项目 | 语言 | 说明 |
 |:-----|:-----|:-----|
-| [fq-compressor](https://github.com/open-genomics/fq-compressor) [🌐](https://open-genomics.github.io/fq-compressor/) | C++23 | FASTQ 专用压缩归档：列式分离 + 2-bit 碱基打包 + Zstd，三层 XXH64 校验，内存有界 |
-| [fq-compressor-rust](https://github.com/open-genomics/fq-compressor-rust) | Rust | 围绕块索引 `.fqc` 归档格式的独立实现，支持随机访问 |
+| [fq-compressor](https://github.com/holtwood-genomics/fq-compressor) [🌐](https://holtwood-genomics.github.io/fq-compressor/) | C++23 | FASTQ 专用压缩归档：列式分离 + 2-bit 碱基打包 + Zstd，三层 XXH64 校验，内存有界 |
+| [fq-compressor-rust](https://github.com/holtwood-genomics/fq-compressor-rust) | Rust | 围绕块索引 `.fqc` 归档格式的独立实现，支持随机访问 |
 
 > ⚠️ **两个 `fqc` 的格式族不同。** 它们共享 `fqc` 命令名与 `.fqc` 后缀，但归档格式族互不兼容，**不能互相解码**。跨实现使用前请先确认格式族，详见各仓库 README。
 > 两者的许可证也不同，详见各自 `LICENSE`。
@@ -31,27 +31,27 @@
 
 | 项目 | 语言 | 说明 |
 |:-----|:-----|:-----|
-| [fastq-tools](https://github.com/open-genomics/fastq-tools) | C++23 | 高性能 FASTQ 质控工具（统计 / 过滤）：零拷贝 I/O、TBB 流水线 |
-| [minibwa-rust](https://github.com/open-genomics/minibwa-rust) | Rust | [lh3/minibwa](https://github.com/lh3/minibwa)（bwa-mem 继任者）的纯 Rust 移植：索引与 C 版字节级兼容，CI 对照验证，含配对端 |
+| [fastq-tools](https://github.com/holtwood-genomics/fastq-tools) | C++23 | 高性能 FASTQ 质控工具（统计 / 过滤）：零拷贝 I/O、TBB 流水线 |
+| [minibwa-rust](https://github.com/holtwood-genomics/minibwa-rust) | Rust | [lh3/minibwa](https://github.com/lh3/minibwa)（bwa-mem 继任者）的纯 Rust 移植：索引与 C 版字节级兼容，CI 对照验证，含配对端 |
 
 ### 归档
 
 | 项目 | 语言 | 说明 |
 |:-----|:-----|:-----|
-| [bwa-rust](https://github.com/open-genomics/bwa-rust) | Rust | BWA-MEM 风格比对器的从零实现（FM-index → SMEM → chaining → SW → SAM 全链路），已由 minibwa-rust 承接，保留作教学参考 |
+| [bwa-rust](https://github.com/holtwood-genomics/bwa-rust) | Rust | BWA-MEM 风格比对器的从零实现（FM-index → SMEM → chaining → SW → SAM 全链路），已由 minibwa-rust 承接，保留作教学参考 |
 
 ### 分析流程
 
 | 项目 | 语言 | 说明 |
 |:-----|:-----|:-----|
-| [micos-2024](https://github.com/open-genomics/micos-2024) [🌐](https://open-genomics.github.io/micos-2024/) | Python | 2024「猛犸杯」参赛作品 · 宏基因组学端到端分析流程 |
+| [micos-2024](https://github.com/holtwood-genomics/micos-2024) [🌐](https://holtwood-genomics.github.io/micos-2024/) | Python | 2024「猛犸杯」参赛作品 · 宏基因组学端到端分析流程 |
 
 ## 知识库
 
 | 项目 | 说明 |
 |:-----|:-----|
-| [wiki-bioinfo](https://github.com/open-genomics/wiki-bioinfo) [🌐](https://open-genomics.github.io/wiki-bioinfo/) | 面向中文社区的生物信息学体系化知识库：连接生物学对象、计算模型、核心算法、分析流程与数据资源 |
-| [awesome-bioinfo-algorithms](https://github.com/open-genomics/awesome-bioinfo-algorithms) | 精选生物信息学算法知识库，含复杂度分析、CLI 维护工具与双语文档 |
+| [wiki-bioinfo](https://github.com/holtwood-genomics/wiki-bioinfo) [🌐](https://holtwood-genomics.github.io/wiki-bioinfo/) | 面向中文社区的生物信息学体系化知识库：连接生物学对象、计算模型、核心算法、分析流程与数据资源 |
+| [awesome-bioinfo-algorithms](https://github.com/holtwood-genomics/awesome-bioinfo-algorithms) | 精选生物信息学算法知识库，含复杂度分析、CLI 维护工具与双语文档 |
 
 ## 工程原则
 
@@ -64,11 +64,11 @@
 不承诺新功能；优先接受正确性、构建、安全与文档修复。
 
 - 各仓库的 `CONTRIBUTING.md` 描述该项目的具体流程；未单独定义的，以组织的
-  [贡献指南](https://github.com/open-genomics/.github/blob/master/CONTRIBUTING.md) 为准
+  [贡献指南](https://github.com/holtwood-genomics/.github/blob/master/CONTRIBUTING.md) 为准
 - 安全问题请走各仓库的**私有漏洞上报**通道，详见
-  [安全策略](https://github.com/open-genomics/.github/blob/master/SECURITY.md)
-- 所有仓库遵循[行为准则](https://github.com/open-genomics/.github/blob/master/CODE_OF_CONDUCT.md)
-- 需要帮助或不确定该开在哪，见[支持指南](https://github.com/open-genomics/.github/blob/master/SUPPORT.md)
+  [安全策略](https://github.com/holtwood-genomics/.github/blob/master/SECURITY.md)
+- 所有仓库遵循[行为准则](https://github.com/holtwood-genomics/.github/blob/master/CODE_OF_CONDUCT.md)
+- 需要帮助或不确定该开在哪，见[支持指南](https://github.com/holtwood-genomics/.github/blob/master/SUPPORT.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# open-genomics/.github
+# holtwood-genomics/.github
 
 Holtwood Genomics 组织的**组织级配置仓库**。这里的文件对该组织下所有仓库生效，
 除非目标仓库自带同名文件。
@@ -11,7 +11,7 @@ Holtwood Genomics 组织的**组织级配置仓库**。这里的文件对该组�
 ```
 .github/
 ├── profile/
-│   └── README.md                 # 组织首页，显示在 github.com/open-genomics
+│   └── README.md                 # 组织首页，显示在 github.com/holtwood-genomics
 ├── .github/                      # 注意：套了两层 .github，这是 GitHub 的硬性要求
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug_report.yml

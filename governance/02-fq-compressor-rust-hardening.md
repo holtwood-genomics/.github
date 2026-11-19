@@ -1,6 +1,6 @@
 # fq-compressor-rust 加固设计
 
-目标仓库：`/home/shane/github/open-genomics/fq-compressor-rust`  
+目标仓库：`/home/shane/github/holtwood-genomics/fq-compressor-rust`  
 审计提交：`1a2a2161bed8`
 
 说明：本文沿用初次审计形成的 `FQCR-*` 任务编号以保持引用稳定；该前缀不是产品改名。负责人已决定 Rust 产品继续使用命令 `fqc` 和后缀 `.fqc`，格式族 ID 为 `fqc-indexed/v2`。

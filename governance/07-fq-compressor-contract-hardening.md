@@ -1,6 +1,6 @@
 # fq-compressor 契约加固设计
 
-目标仓库：`/home/shane/github/open-genomics/fq-compressor`  
+目标仓库：`/home/shane/github/holtwood-genomics/fq-compressor`  
 审计提交：`1361d4e8628a`  
 当前软件版本：`0.3.0-rc1`
 
@@ -201,7 +201,7 @@ UBSAN_OPTIONS=halt_on_error=1 \
 
 实施要求：
 
-1. active repository/clone/CI URL 改为 `open-genomics/fq-compressor`；
+1. active repository/clone/CI URL 改为 `holtwood-genomics/fq-compressor`；
 2. Conan `url` 与 CMake homepage 指向当前仓库；作者字段可保留真实个人署名，不应因仓库迁移自动改写历史作者；
 3. 当前 Git 历史显示 `vendor/spring-core` 已删除，HEAD 也没有 `vendor/`。在再次检查发布 source archive 后，删除 LICENSE 中只针对该不存在路径的排除段；
 4. MIT 标准许可正文不要随意改写；
