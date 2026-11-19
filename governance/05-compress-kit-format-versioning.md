@@ -1,6 +1,6 @@
 # CompressKit 二进制格式版本化设计
 
-目标仓库：`/home/shane/github/holtwood-genomics/compress-kit`  
+目标仓库：`/home/shane/github/holtwood-projects/compress-kit`  
 审计提交：`aa6472604fe2`
 
 ## 1. 问题定义
