@@ -64,8 +64,8 @@
 ## 本审计包未覆盖的仓库
 
 以下仓库在审计之后才纳入治理范围，本文档不覆盖：
-`awesome-bioinfo-algorithms`、`bwa-rust`、`hillock`、`lush-hc`、`lush_aligner1`、
-`swift-duck`、`wiki-bioinfo`。
+`awesome-bioinfo-algorithms`、`bwa-rust`、`wiki-bioinfo`，以及若干私有仓库
+（名称不在公开文档列举）。
 
 ## 阅读顺序建议
 
